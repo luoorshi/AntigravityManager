@@ -2,6 +2,30 @@
 
 # Changelog
 
+## [0.12.0](https://github.com/Draculabo/AntigravityManager/compare/v0.11.1...v0.12.0) (2026-05-07)
+
+### ✨ Features
+
+* increase the request timeout period ([8a0637f](https://github.com/Draculabo/AntigravityManager/commit/8a0637f925073ee9354dbea1ae0d1dc433b2ecad))
+
+### 🐛 Bug Fixes
+
+* **cloud:** preserve Google token metadata during sync ([b9e932d](https://github.com/Draculabo/AntigravityManager/commit/b9e932df61bf28c235888e9c96ff20ad8135316a))
+* **proxy:** align upstream retry and rate-limit handling ([dbf5345](https://github.com/Draculabo/AntigravityManager/commit/dbf53454c55b5dfc810286e90953c826e07ddbce))
+* refresh Google token before account switch injection ([#168](https://github.com/Draculabo/AntigravityManager/issues/168)) ([03a1307](https://github.com/Draculabo/AntigravityManager/commit/03a13077d11191212efe2372b65196127a4d9d02))
+
+### ♻️ Code Refactoring
+
+* **antigravity:** clarify request and quota mapping ([0758b1d](https://github.com/Draculabo/AntigravityManager/commit/0758b1d1326413ec6cc1b9382fb4b66295631e1b))
+
+### ✅ Tests
+
+* remove obsolete core feature suite ([abcee97](https://github.com/Draculabo/AntigravityManager/commit/abcee97c372aa322fd0628822bf02551727253ef))
+
+### 🔧 Continuous Integration
+
+* align publish workflow with Node 22 and add npm install retry ([158d2f3](https://github.com/Draculabo/AntigravityManager/commit/158d2f30ccf05803f380966982cadd2b58f68a17))
+
 ## [0.11.1](https://github.com/Draculabo/AntigravityManager/compare/v0.11.0...v0.11.1) (2026-04-18)
 
 ### 🐛 Bug Fixes
