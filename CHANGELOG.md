@@ -2,6 +2,29 @@
 
 # Changelog
 
+## [0.17.0](https://github.com/Draculabo/AntigravityManager/compare/v0.16.1...v0.17.0) (2026-06-10)
+
+### ✨ Features
+
+* **i18n:** add French localization ([18b6720](https://github.com/Draculabo/AntigravityManager/commit/18b6720aa724b9ca498c5b7c3f42d4d93be325a4))
+* **updater:** add non-blocking update notification ([2f8a955](https://github.com/Draculabo/AntigravityManager/commit/2f8a955dc29b423b8425f79c52da5f8fd2b2be09))
+
+### 🐛 Bug Fixes
+
+* add diagnostics for Windows process scan fallback ([c120416](https://github.com/Draculabo/AntigravityManager/commit/c120416b334d85a3264090d47e8cbd77a24fe77e))
+* avoid Linux portable user-data permission crash ([1c70686](https://github.com/Draculabo/AntigravityManager/commit/1c70686473078ca553ce6a11c484546663600ec4))
+* opentelemetry oom ([e5049c4](https://github.com/Draculabo/AntigravityManager/commit/e5049c44114e93744405052d3d3c998bd2dbe69d))
+* show recovery hint for missing Antigravity project ID ([df9d122](https://github.com/Draculabo/AntigravityManager/commit/df9d12299d588fe96be01d870aef1da13570ade9))
+* **updater:** use manual update checks on macOS and Linux ([c5da5a8](https://github.com/Draculabo/AntigravityManager/commit/c5da5a897d16bdd6b7e5342b4b3075fd59d783e4))
+
+### ♻️ Code Refactoring
+
+* **i18n:** move locale resources into separate files ([00975a4](https://github.com/Draculabo/AntigravityManager/commit/00975a44be841b22041624baa6a449e3a3d09ed1))
+
+### 🔧 Continuous Integration
+
+* **release:** publish updater metadata ([df0d2cf](https://github.com/Draculabo/AntigravityManager/commit/df0d2cf0d5cc167a050a1a1787fc6a629959ddc9))
+
 ## [0.16.1](https://github.com/Draculabo/AntigravityManager/compare/v0.16.0...v0.16.1) (2026-06-09)
 
 ### 🐛 Bug Fixes
